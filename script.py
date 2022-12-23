@@ -5,7 +5,7 @@ os.system(f"mkdir {dirPath}")
 
 leaks = []
 
-paths = open("scirptLeak/paths.txt", "r").readlines()
+paths = open("paths.txt", "r").readlines()
 
 for i in range(len(paths)):
     string = paths[i]
